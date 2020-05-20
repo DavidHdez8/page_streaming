@@ -6,7 +6,7 @@ body {
     color: white;
 }
 
-.header {
+.header{
     align-items: center;
     background-color: #011627;
     color: white;
@@ -21,15 +21,15 @@ body {
     width: 120px;
     margin-top: 0px;
 }
-.login {
+.sign-in {
     background: linear-gradient(#011627, #1D3557);
     display: flex;
     align-items: center;
-    justify-content: center; /* Central horizontalmente */
+    justify-content: center; 
     padding: 0px 30px;
     min-height: calc(100vh - 200px);
 }
-.login__container {
+.sign-in__container {
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid white;
     border-radius: 40px;
@@ -38,51 +38,28 @@ body {
     min-height: 700px;
     width: 300px;
     display: flex;
-    justify-content: space-around; /*Espacio igual en todos los elementos*/
+    justify-content: space-around; 
     flex-direction: column;
 }
-.login__container--form {
-    display: flex; /*Elementos que se alinien*/
+.sign-in__container--form {
+    display: flex;
     flex-direction: column;
 }
-.login__container--form label{
+.sign.sign-in__container--form label{
     font-size: 14px;
 }
-.login__container--remember-me {
+.sign-in__container--login {
     color: white;
     display: flex;
-    justify-content: space-between; /*Espacio entre los elementos*/
+    justify-content: space-between;
     margin-top: 10px;
 }
-.login__container--remember-me a { 
+.sign-in__container--login a{
     color: white;
     font-size: 14px;
     text-decoration: none;
 }
-.login__container--remember-me a:hover {
-    text-decoration: underline;
-}
-
-.login__container--social-media > div{
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-.login__container--social-media > div > img {
-    width: 30px;
-    margin-right: 10px;
-}
-.login__container--register{
-    font-size: 14px;
-}
-.login__container--register a{
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
-}
-.login__container--register a:hover {
+.sign-in__container--login a:hover{
     text-decoration: underline;
 }
 .input {
@@ -100,10 +77,10 @@ body {
     height: 50px;
     font-weight: bold;
 }
-
 ::placeholder {
     color: white;
 }
+
 .button {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
@@ -111,7 +88,7 @@ body {
     color: white;
     cursor: pointer;
     font-size: 16px;
-    font-weight: bold; /*Mas oscuro*/
+    font-weight: bold;
     font-family: 'Muli', sans-serif;
     height: 50px;
     letter-spacing: 1px;
@@ -131,8 +108,7 @@ body {
     padding-left: 30px;
     text-decoration: none;
 }
-
-.footer a:hover{
+.footer a:hover {
     text-decoration: underline;
 }
 @media only screen and (max-widht: 600px) {
