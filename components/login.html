@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,700;1,600&display=swap" rel="stylesheet">
     <title>Iniciar sesión</title>
 </head>
 <body>
     <header class="header">
-        <img class="header__img" src="./icons/logo.png" alt="">
+        <img tabindex="0" class="header__img" src="../icons/logo.png" alt="Vídeo">
     </header>
     <section class="login">
         <section class="login__container">
             <form class="login__container--form">
-                <p>Iniciar sesión</p>
-                <input class="input" type="text" placeholder="Correo">
-                <input class="input" type="password" placeholder="Contraseña">
+                <p tabindex="0" >Iniciar sesión</p>
+                <input aria-label="Correo" class="input" type="text" placeholder="Correo">
+                <input aria-label="Contraseña" class="input" type="password" placeholder="Contraseña">
                 <button class="button">Iniciar sesión</button>
                 <div class="login__container--remember-me">
                     <label>
@@ -26,8 +26,8 @@
                 </div>
             </form>
             <section class="login__container--social-media">
-                <div><img src="./icons/google-icon.webp" alt="Google"><a href="/">Inicia sesión con Google</a></div>
-                <div><img src="./icons/twitter-icon.webp" alt="Twitter"><a href="/">Inicia sesión con Twitter</a></div>
+                <div><img src="../icons/google-icon.webp" alt="Google"><a href="/">Inicia sesión con Google</a></div>
+                <div><img src="../icons/twitter-icon.webp" alt="Twitter"><a href="/">Inicia sesión con Twitter</a></div>
             </section>
             <p class="login__container--register">No tienes ninguna cuenta <a href="/">Registrate</a></p>
         </section>
