@@ -24,7 +24,7 @@ body {
 }
 
 .sign-in {
-  background: linear-gradient(#011627, #1D3557);
+  background: linear-gradient(#011627, #011627);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,7 +106,7 @@ body {
 }
 
 .footer {
-  background-color: #1D3557;
+  background-color: #011627;
   display: flex;
   align-items: center;
   height: 100px;

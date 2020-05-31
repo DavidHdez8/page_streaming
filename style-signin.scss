@@ -1,14 +1,17 @@
+$colorPrimary: white;
+$backgroundColor: #011627;
+
 body {
     margin: 0;
     font-family: 'Muli', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    color: white;
+    color: $colorPrimary;
 }
 
 .header{
     align-items: center;
-    background-color: #011627;
+    background-color: $backgroundColor;
     color: white;
     display: flex;
     height: 115px;
@@ -22,7 +25,7 @@ body {
     margin-top: 0px;
 }
 .sign-in {
-    background: linear-gradient(#011627, #1D3557);
+    background: linear-gradient($backgroundColor, $backgroundColor);
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -49,7 +52,7 @@ body {
     font-size: 14px;
 }
 .sign-in__container--login {
-    color: white;
+    color: $colorPrimary;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -63,12 +66,12 @@ body {
     text-decoration: underline;
 }
 .input {
-    color: white;
+    color: $colorPrimary;
     background-color: transparent;
     border-left: 0px;
     border-top: 0px;
     border-right: 0px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid $colorPrimary;
     font-size: 16px;
     font-family: 'Muli', sans-serif;
     margin-bottom: 20px;
@@ -78,14 +81,14 @@ body {
     font-weight: bold;
 }
 ::placeholder {
-    color: white;
+    color: $colorPrimary;
 }
 
 .button {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 25px;
-    color: white;
+    color: $colorPrimary;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
@@ -95,14 +98,14 @@ body {
     margin: 10px 0px;
 }
 .footer {
-    background-color: #1D3557;
+    background-color: $backgroundColor;
     display: flex;
     align-items: center;
     height: 100px;
     width: 100%;
 }
 .footer a {
-    color: white;
+    color: $colorPrimary;
     cursor: pointer;
     font-size: 14px;
     padding-left: 30px;
